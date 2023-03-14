@@ -1,0 +1,20 @@
+{
+    "01d": "../src/assets/img/weather/01d.png",
+    "01n": "../src/assets/img/weather/01n.png", 
+    "02d": "../src/assets/img/weather/02d.png", 
+    "02n": "../src/assets/img/weather/02n.png",
+    "03d": "../src/assets/img/weather/03d.png", 
+    "03n": "../src/assets/img/weather/03n.png",
+    "04d": "../src/assets/img/weather/04d.png", 
+    "04n": "../src/assets/img/weather/04n.png",
+    "09d": "../src/assets/img/weather/09d.png", 
+    "09n": "../src/assets/img/weather/09n.png",
+    "10d": "../src/assets/img/weather/10d.png", 
+    "10n": "../src/assets/img/weather/10n.png",
+    "11d": "../src/assets/img/weather/11d.png", 
+    "11n": "../src/assets/img/weather/11n.png",
+    "13d": "../src/assets/img/weather/13d.png", 
+    "13n": "../src/assets/img/weather/13n.png",
+    "50d": "../src/assets/img/weather/50d.png", 
+    "50n": "../src/assets/img/weather/50n.png"
+}
