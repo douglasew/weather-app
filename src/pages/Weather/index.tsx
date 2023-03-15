@@ -90,7 +90,11 @@ const WeatherPage = () => {
       ) : (
         <div className=" dark:bg-slate-900">
           <div className="flex items-center flex-col">
-            <img src={data[Icon]} width={400} height={400} />
+            {typeof Icon === "string" ? (
+              <img src={data[Icon]} width={400} height={400} />
+            ) : (
+              <div></div>
+            )}
             <div className="flex justify-center flex-row">
               <h2 className="text-8xl font-bold  dark:text-white">
                 {Weather.main?.temp?.toFixed(0)}
