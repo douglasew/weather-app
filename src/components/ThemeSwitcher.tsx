@@ -8,7 +8,7 @@ const ThemeSwitcher = (props: ThemeSwitcherProps) => {
 
   return (
     <div>
-      <button className=" text-gray-800 font-semibold py-2 px-4 rounded shadow dark:bg-slate-900">
+      <button className=" text-gray-800 font-semibold py-2 px-4 rounded dark:bg-slate-900">
         {theme === "light" ? (
           <FontAwesomeIcon
             icon={faMoon}
