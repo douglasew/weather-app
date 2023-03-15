@@ -1,6 +1,14 @@
 import { createContext, useContext, useEffect, useState } from "react";
 
-const ThemeContext = createContext(null);
+export type ThemeContextTypes = {
+  theme: string;
+  setTheme: (c: string) => void;
+};
+
+const ThemeContext = createContext<ThemeContextTypes>({
+  theme: "",
+  setTheme: () => {},
+});
 
 export default function ThemeContextProvider({ children }: any) {
   const [theme, setTheme] = useState(
