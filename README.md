@@ -1,7 +1,7 @@
 
 # Weather App
 
-Simple weather app using react with vite
+Simple weather app using React with Vite
 
 
 ## Instalação
